@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\workspace\\TM_WPF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|C:\\Users\\USER\\Documents\\workspace\\TM_WPF\\addtoilet.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|solutionrelative:addtoilet.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|C:\\Users\\USER\\Documents\\workspace\\TM_WPF\\toilet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|solutionrelative:toilet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|C:\\Users\\USER\\Documents\\workspace\\TM_WPF\\addtoilet.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|solutionrelative:addtoilet.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|c:\\users\\user\\documents\\workspace\\tm_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|c:\\users\\user\\documents\\workspace\\tm_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|C:\\Users\\USER\\Documents\\workspace\\TM_WPF\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|c:\\users\\user\\documents\\workspace\\tm_wpf\\addtoilet.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|solutionrelative:addtoilet.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|c:\\users\\user\\documents\\workspace\\tm_wpf\\addtoilet.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|solutionrelative:addtoilet.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|c:\\users\\user\\documents\\workspace\\tm_wpf\\toilet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE2FA14-DAE1-49D0-969C-E8F5001F5AD9}|TM_WPF.csproj|solutionrelative:toilet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AddToilet.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\workspace\\TM_WPF\\AddToilet.xaml.cs",
               "RelativeDocumentMoniker": "AddToilet.xaml.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\workspace\\TM_WPF\\AddToilet.xaml.cs",
               "RelativeToolTip": "AddToilet.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T06:02:46.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Toilet.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\workspace\\TM_WPF\\Toilet.cs",
               "RelativeDocumentMoniker": "Toilet.cs",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\workspace\\TM_WPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -84,13 +84,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\workspace\\TM_WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\workspace\\TM_WPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAASwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T01:34:06.429Z",
               "EditorCaption": ""

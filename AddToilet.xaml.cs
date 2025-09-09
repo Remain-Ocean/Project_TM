@@ -19,7 +19,8 @@ namespace TM_WPF
     /// </summary>
     public partial class AddToilet : Window
     {
-        private int CardCount = 1;
+        private int CardCount = 0;
+        public Toilet ToiletInfo { get; private set; }
         public AddToilet()
         {
             InitializeComponent();
@@ -27,6 +28,14 @@ namespace TM_WPF
 
         private void BtnOK_Click(object sender, RoutedEventArgs e)
         {
+            ToiletInfo = new Toilet
+            {
+                Floor = FloorTextBox.Text,
+                Gender = RadioMale.IsChecked == true ? "남자" : RadioFemale.IsChecked == true ? "여자" : "",
+                LocationDetail = DetailTextBox.Text,
+                Status = "정상"
+            };
+
             string floor = FloorTextBox.Text.Trim();
             string detail = FloorTextBox.Text.Trim();
             string gender = RadioMale.IsChecked == true ? "남자" : RadioFemale.IsChecked == true ? "여자" : "";
@@ -49,6 +58,11 @@ namespace TM_WPF
 
             AddCard(floor, gender, detail);
 
+        }
+
+        private void AddCard(string floor, string gender, string detail)
+        {
+            
         }
 
         private void BtnClose_Click(object sender, RoutedEventArgs e)

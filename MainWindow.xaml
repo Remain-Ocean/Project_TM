@@ -11,11 +11,6 @@
                 <TextBlock Text="Clean Monitor" 
                            FontSize="20" FontWeight="Bold"
                            DockPanel.Dock="Left"/>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button Content="대시보드" Margin="8,0" BorderBrush="Transparent"/>
-                    <Button Content="알림 설정" Margin="8,0" BorderBrush="Transparent"/>
-                    <Button Content="리포트" Margin="8,0" BorderBrush="Transparent"/>
-                </StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <Button Background="Gray" Content="+" Width="30" Height="30" Margin="8,0" Command="{Binding AddToiletCommand}" BorderBrush="Transparent" Click="BtnAdd"/>
                     <Button Background="Transparent" Width="30" Height="30" Content="🔔" Margin="8,0" BorderBrush="Transparent"/>
@@ -94,31 +89,6 @@
                 </ItemsControl>
                 <!-- 화장실 현황 카드 -->
                 <WrapPanel>
-                    <Border Background="White" CornerRadius="12" Margin="8" Width="200" Padding="16" BorderBrush="LightBlue" BorderThickness="2">
-                        <StackPanel>
-                            <TextBlock Text="1층 남자화장실" FontWeight="Bold" HorizontalAlignment="Center"/>
-                            <TextBlock Text="본관 1층 동쪽" Foreground="Gray" FontSize="12" HorizontalAlignment="Center" Margin="0,4"/>
-                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,8">
-                                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="0,8">
-                                    <TextBlock Text="{}" Foreground="Red" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="긴급" Foreground="red"/>
-                                </StackPanel>
-                                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="0,8">
-                                    <TextBlock Text="{}" Foreground="Orange" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="주의" Foreground="Orange" Margin="8,0"/>
-                                </StackPanel>
-                                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="0,8">
-                                    <TextBlock Text="{}" Foreground="Green" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="정상" Foreground="Green" Margin="8,0"/>
-                                </StackPanel>
-                            </StackPanel>
-                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,8">
-                                <TextBlock Text="🕦" Foreground="Gray" FontSize="11" Margin="3,0"/>
-                                <TextBlock Text="5분 전" Foreground="Gray" FontSize="11"/>
-                            </StackPanel>
-                        </StackPanel>
-                    </Border>
-
                     <!-- 카드 복사해서 여러 개 배치 -->
                     <Border Background="White" CornerRadius="12" Margin="8" Width="200" Padding="16" BorderBrush="LightGray" BorderThickness="1">
                         <StackPanel>
@@ -142,11 +112,9 @@
                                 <TextBlock Text="🕦" Foreground="Gray" FontSize="11" Margin="3,0"/>
                                 <TextBlock Text="5분 전" Foreground="Gray" FontSize="11"/>
                             </StackPanel>
-                            
                         </StackPanel>
                     </Border>
                 </WrapPanel>
-
             </StackPanel>
         </ScrollViewer>
     </DockPanel>

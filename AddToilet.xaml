@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TM_WPF"
         mc:Ignorable="d"
-        Title="AddToilet" Height="350" Width="500"
+        Title="AddToilet" Height="380" Width="500"
         Background="#f8f9fa">
     <DockPanel>
         <Border Background="White" DockPanel.Dock="Top" Padding="16" BorderBrush="#ddd" BorderThickness="0,0,0,1">

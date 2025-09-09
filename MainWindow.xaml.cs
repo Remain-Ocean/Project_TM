@@ -34,5 +34,11 @@ namespace TM_WPF
         {
 
         }
+
+        private void BtnAdd(object sender, RoutedEventArgs e)
+        {
+            AddToilet addToilet = new AddToilet();
+            addToilet.ShowDialog();
+        }
     }
 }
